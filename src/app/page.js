@@ -227,6 +227,7 @@ export default function Page() {
 					<input
 						value={prefs}
 						onChange={(e) => setPrefs(e.target.value)}
+						required
 						placeholder="Preferences (Veg, Indian, Baked, Non-Fried)"
 						className="h-11 rounded-lg border border-slate-700 bg-slate-950/80 px-3 py-2 text-sm
                  placeholder:text-slate-500 focus:border-blue-500 focus:outline-none sm:w-full"
